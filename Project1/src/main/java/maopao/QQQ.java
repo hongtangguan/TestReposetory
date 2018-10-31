@@ -2,8 +2,8 @@ package maopao;
 
 /**
  * @Auther: ZGS
- * @Date: 2018/10/31 16:53
+ * @Date: 2018/10/31 17:06
  * @Description:
  */
-public class A {
+public class QQQ {
 }
