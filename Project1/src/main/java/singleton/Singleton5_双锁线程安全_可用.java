@@ -15,7 +15,7 @@ public class Singleton5_双锁线程安全_可用 {
     /**
      * 方法内部双重判断, 并且该类实例用volatile修饰, 让线程从主内存中读取该变量.从而达到线程安全.
      */
-    private static Singleton5_双锁线程安全_可用 getInstance(){
+    public static Singleton5_双锁线程安全_可用 getInstance(){
 
         if (instance == null) {
             synchronized (Singleton5_双锁线程安全_可用.class){

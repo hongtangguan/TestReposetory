@@ -18,7 +18,7 @@ public class Singleton3_懒汉线程安全_不推荐 {
      *      但是这么写效率会很低.  第一个线程进来创建好实例后.   每个线程进来都要同步,效率低.
      * @return
      */
-    private synchronized static Singleton3_懒汉线程安全_不推荐 getInstance(){
+    public synchronized static Singleton3_懒汉线程安全_不推荐 getInstance(){
         if (instance == null) {
             instance =  new Singleton3_懒汉线程安全_不推荐();
         }

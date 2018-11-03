@@ -13,7 +13,7 @@ public class Singleton2_懒汉线程不安全 {
 
     }
 
-    private static Singleton2_懒汉线程不安全 getInstance(){
+    public static Singleton2_懒汉线程不安全 getInstance(){
         if (instance == null) {
             instance =  new Singleton2_懒汉线程不安全();
         }

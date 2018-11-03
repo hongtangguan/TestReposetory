@@ -11,7 +11,7 @@ public class Singleton1_饿汉_线程安全 {
 
     private static final Singleton1_饿汉_线程安全 instance = new Singleton1_饿汉_线程安全();
 
-    private static Singleton1_饿汉_线程安全 getInstance(){
+    public static Singleton1_饿汉_线程安全 getInstance(){
         return instance;
     }
 
